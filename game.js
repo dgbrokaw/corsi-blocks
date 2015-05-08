@@ -7,20 +7,20 @@ var Game = function() {
 
 	this.sequences = [new Sequence(0, [7,4])
 									 ,new Sequence(1, [5,3])];
-									 ,new Sequence(2, [3,6,1])
-									 ,new Sequence(3, [8,0,4])
-									 ,new Sequence(4, [2,3,0,6])
-									 ,new Sequence(5, [5,0,4,7])
-									 ,new Sequence(6, [4,1,0,7,5])
-									 ,new Sequence(7, [3,1,6,2,0])
-									 ,new Sequence(8, [2,8,1,3,7,6])
-									 ,new Sequence(9, [2,6,7,1,8,3])
-									 ,new Sequence(10, [4,8,0,6,3,1,7])
-									 ,new Sequence(11, [4,6,8,1,7,3,5])
-									 ,new Sequence(12, [4,7,0,8,1,5,3,6])
-									 ,new Sequence(13, [4,8,2,5,6,1,3,2])
-									 ,new Sequence(14, [4,2,7,6,0,1,3,5,8])
-									 ,new Sequence(15, [3,1,5,7,0,6,8,2,4])];
+									 // ,new Sequence(2, [3,6,1])
+									 // ,new Sequence(3, [8,0,4])
+									 // ,new Sequence(4, [2,3,0,6])
+									 // ,new Sequence(5, [5,0,4,7])
+									 // ,new Sequence(6, [4,1,0,7,5])
+									 // ,new Sequence(7, [3,1,6,2,0])
+									 // ,new Sequence(8, [2,8,1,3,7,6])
+									 // ,new Sequence(9, [2,6,7,1,8,3])
+									 // ,new Sequence(10, [4,8,0,6,3,1,7])
+									 // ,new Sequence(11, [4,6,8,1,7,3,5])
+									 // ,new Sequence(12, [4,7,0,8,1,5,3,6])
+									 // ,new Sequence(13, [4,8,2,5,6,1,3,2])
+									 // ,new Sequence(14, [4,2,7,6,0,1,3,5,8])
+									 // ,new Sequence(15, [3,1,5,7,0,6,8,2,4])];
 	this.idx = 0;
 
 	// possible values will be 'display', 'user', 'report', and 'done'
